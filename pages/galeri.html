@@ -1,50 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="uk">
+
 <head>
     <meta charset="UTF-8">
-    <title>Galeri</title>
+    <title>Галерея</title>
+    <link href="../style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body bgcolor="#F4B183">
+<body class="page">
 
-    <nav>
-        <a href="../index.html">Головна</a>
-        &nbsp;&nbsp;
-        <a href="./contacts.html">Контакти</a>
-        &nbsp;&nbsp;
-        <a href="./galeri.html">Галерея</a>
+    <nav class="navigation">
+
+        <div class="left">
+
+            <a class="tabs" href="../index.html">
+                Головна
+            </a>
+
+            <a class="tabs" href="./contacts.html">
+                Контакти
+            </a>
+
+            <a class="tabs" href="./galeri.html">
+                Галерея
+            </a>
+
+        </div>
+
+        <div class="right">
+
+            <a class="btn" href="./registration.html">
+                Реєстрація
+            </a>
+
+        </div>
+
     </nav>
 
-    <hr>
+    <hr class="separator">
 
-    <h1 align="center">
-        <font color="blue" face="Arial" size="6">
-            ФОТО
-        </font>
+    <h1 class="page-title">
+        ФОТО
     </h1>
 
-    <div align="center">
+    <div class="gallery-container">
 
-        <img src="../photo/images (1).jfif" width="150" height="100">
-        &nbsp;&nbsp;
-        <img src="../photo/images (2).jfif" width="150" height="100">
-        &nbsp;&nbsp;
-        <img src="../photo/image3.jpg" width="150" height="100">
+        <div class="gallery-images">
 
-        <br><br>
+            <img class="gallery-image" src="../photo/images (1).jfif" width="150" height="100">
 
-        <font color="blue" face="Georgia" size="5">
+            <img class="gallery-image" src="../photo/images (2).jfif" width="150" height="100">
+
+            <img class="gallery-image" src="../photo/image3.jpg" width="150" height="100">
+
+        </div>
+
+        <h2 class="section-title">
             ВІДЕО
-        </font>
+        </h2>
 
-        <hr>
+        <hr class="separator">
 
-        <video width="400" height="225" controls>
+        <video class="gallery-video" width="400" height="225" controls>
+
             <source src="../video/ronaldo.mp4" type="video/mp4">
-        </video>
 
+        </video>
 
     </div>
 
 </body>
+
 </html>

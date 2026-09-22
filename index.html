@@ -1,92 +1,103 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <title>Головна</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body bgcolor="#F4B183">
+<body class="page">
 
-    <nav>
-        <a href="./index.html">Головна</a>
-        &nbsp;&nbsp;
-        <a href="./pages/contacts.html">Контакти</a>
-        &nbsp;&nbsp;
-        <a href="./pages/galeri.html">Галерея</a>
-    </nav>
+   <nav class="navigation">
 
-    <hr>
+    <div class="left">
 
-    <h1 align="center">
-        <font color="green" face="Arial" size="5">
-            Легендарний футболіст
-        </font>
+        <a class="tabs" href="./index.html">
+            Головна
+        </a>
+
+        <a class="tabs" href="./pages/contacts.html">
+            Контакти
+        </a>
+
+        <a class="tabs" href="./pages/galeri.html">
+            Галерея
+        </a>
+
+    </div>
+
+    <div class="right">
+
+        <a class="btn" href="./pages/registration.html">
+            Реєстрація
+        </a>
+
+    </div>
+
+</nav>
+
+    <hr class="separator">
+
+    <h1 class="main-title">
+        Легендарний футболіст
     </h1>
 
-    <div align="center">
+    <div class="container">
 
-        <img src="./photo/image3.jpg" width="120" height="120">
+        <img
+            class="main-image"
+            src="./photo/image3.jpg"
+            width="300"
+            height="300"
+            alt="Кріштіану Роналду">
 
-        <h2>
-            <font color="blue" face="Georgia" size="4">
-                Кріштіану Роналду
-            </font>
-        </h2>
+        <p class="text text-box description">
 
-        <p>
-            <font color="red" face="Arial" size="3">
-                Кріштіану Роналду — португальський футболіст.
-            </font>
+            Кріштіану Роналду — португальський футболіст.
             <br>
-
-            <font color="green" face="Times New Roman" size="3">
-                Народився на Мадейрі.
-            </font>
+            Народився на Мадейрі.
             <br>
-
-            <font color="purple" face="Courier New" size="3">
-                Почав кар’єру у Спортінгу.
-            </font>
+            Почав кар’єру у Спортінгу.
             <br>
-
-            <font face="Verdana" size="3">
-                Потім грав за Манчестер Юнайтед, Реал Мадрид,
-                Ювентус і Аль Наср.
-            </font>
+            Потім грав за Манчестер Юнайтед, Реал Мадрид,
+            Ювентус і Аль Наср.
             <br>
-
             <b>Багаторазовий володар Золотого м’яча.</b>
             <br>
-
             <i>Відомий рекордами, швидкістю та технікою.</i>
             <br>
-
             <u>Один із найкращих гравців в історії футболу.</u>
+
         </p>
 
-        <hr>
+    </div>
 
-        <button onclick="alert('Вітаємо на сайті!')">
-          PRESS
+    <hr class="separator">
+
+    <div class="buttons">
+
+        <button class="btn" onclick="alert('Вітаємо на сайті!')">
+            PRESS
         </button>
 
-        <button onclick="alert('Кріштіану Роналду')">
+        <button class="btn" onclick="alert('Кріштіану Роналду')">
             Ronaldo
         </button>
 
-        &nbsp;&nbsp;
-
-        <p>
-        <font face="Arial" size="4">
+        <p class="info-text">
             Більше інформації про футболіста:
-        </font>
-    </p>
+        </p>
 
-    <a href="https://www.cristianoronaldo.com/" target="_blank">
-        Офіційний сайт Cristiano Ronaldo
-    </a>
+        <a
+            class="btn"
+            href="https://www.cristianoronaldo.com/"
+            target="_blank">
+            Офіційний сайт Cristiano Ronaldo
+        </a>
 
     </div>
 
 </body>
+
 </html>

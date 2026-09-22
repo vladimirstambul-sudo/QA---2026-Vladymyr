@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Реєстрація</title>
+    <link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="left">
+
+            <a class="tabs" href="../index.html">
+                Головна
+            </a>
+
+            <a class="tabs" href="./contacts.html">
+                Контакти
+            </a>
+
+            <a class="tabs" href="./galeri.html">
+                Галерея
+            </a>
+
+        </div>
+
+        <div class="right">
+
+            <a class="btn active" href="#">
+                Реєстрація
+            </a>
+
+        </div>
+
+    </nav>
+
+    <h1>Реєстрація</h1>
+
+    <div class="form-container">
+
+        <form class="registration-form" method="post" action="https://fom.in.ua/echo">
+
+            <label>Ваше ім'я:</label>
+            <input type="text" name="name" placeholder="Ваше ім'я...">
+
+            <label>Дата народження:</label>
+            <input type="date" name="birthdate">
+
+            <label>Пароль:</label>
+            <input type="password" name="password">
+
+            <label>Стать:</label>
+
+            <label class="gender">
+                <input type="radio" name="gender" value="male">
+                Чоловік
+            </label>
+
+            <label class="gender">
+                <input type="radio" name="gender" value="female">
+                Жінка
+            </label>
+
+            <label class="checkbox">
+                <input type="checkbox" name="personal_data">
+                Погоджуюсь з обробкою персональних даних
+            </label>
+
+            <label class="checkbox">
+                <input type="checkbox" name="rules">
+                Ознайомлений з правилами
+            </label>
+
+            <input type="submit" value="Зареєструватися" class="btn">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
